@@ -39,6 +39,8 @@ body {
 
 .one {
   font-size: 4.5rem;
+  color: white;
+  text-shadow: 2px 2px #ff0000;
 }
 
 .one > img {
@@ -51,10 +53,13 @@ body {
 .two {
   font-size: 1.2rem;
   font-weight: lighter;
+  color: white;
+
 }
 
 .three {
   font-size: 3rem;
+  color: white;
 }
 
 .four .text-box {
@@ -64,6 +69,7 @@ body {
   border-radius: 5px;
   padding: 10px;
   position: relative;
+  color: white;
 }
 
 .text-box p {
@@ -90,16 +96,19 @@ body {
   position: absolute;
   left: 0;
   right: 0;
+  color: white;
 }
 
 .idea-3 strong {
   padding: 3px 5px;
   border-radius: 3px;
   display: inline-block;
+  color: white;
 }
 
 .five .idea-5 {
   font-size: 4rem;
+  color: white;
 }
 
 .idea-5 span,
@@ -107,14 +116,17 @@ body {
 .wish-hbd span {
   display: inline-block;
   margin: 0;
+  color: white;
 }
 
 .idea-6 span {
   font-size: 15rem;
+  color: white;
 }
 
 .six {
   position: relative;
+  color: white;
 }
 
 .six img {
@@ -193,24 +205,12 @@ body {
   left: 77vw;
   fill: #bfaa40;
 }
-
-.eight svg:nth-child(7) {
-  top: 68vh;
-  left: 83vw;
-  fill: #e3bae8;
+.nine {
+  color: white;
+  text-shadow: 2px 2px blue;
 }
 
-.eight svg:nth-child(8) {
-  top: 86vh;
-  left: 37vw;
-  fill: #8762cb;
-}
 
-.eight svg:nth-child(9) {
-  top: 94vh;
-  left: 87vw;
-  fill: #9a90da;
-}
 
 .wish-hbd {
   font-size: 3em;
@@ -220,9 +220,10 @@ body {
 }
 
 .wish h5 {
-  font-weight: lighter;
+  font-weight: bolder;
   font-size: 2rem;
   margin: 10px 0 0;
+  text-shadow: 2px 2px green;
 }
 
 .nine p {
@@ -240,12 +241,12 @@ body {
     height: 25px;
     background: #4E9CAF;
     font-size: 25px;
-    
+    align-self: center;
     border-radius: 5px;
     color: white;
+    margin-left: 38%;
     
-    
-    margin-left: 43%;
+   
 }
 
 /* Media Queries */
