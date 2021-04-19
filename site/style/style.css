@@ -39,8 +39,8 @@ body {
 
 .one {
   font-size: 4.5rem;
-  color: white;
-  text-shadow: 2px 2px #ff0000;
+  color: yellow;
+  text-shadow: -1px 0 black, 0 2px black, 1px 0 black, 0 -1px black;
 }
 
 .one > img {
@@ -51,15 +51,17 @@ body {
 }
 
 .two {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: lighter;
-  color: white;
+  color: red;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 
 }
 
 .three {
   font-size: 3rem;
-  color: white;
+  color: DodgerBlue;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .four .text-box {
@@ -96,7 +98,8 @@ body {
   position: absolute;
   left: 0;
   right: 0;
-  color: white;
+  color: Tomato;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .idea-3 strong {
@@ -108,7 +111,8 @@ body {
 
 .five .idea-5 {
   font-size: 4rem;
-  color: white;
+  color: Orange;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .idea-5 span,
@@ -116,17 +120,19 @@ body {
 .wish-hbd span {
   display: inline-block;
   margin: 0;
-  color: white;
+  color: red;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .idea-6 span {
   font-size: 15rem;
-  color: white;
+ color: LightGray;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .six {
   position: relative;
-  color: white;
+  color: Violet;
 }
 
 .six img {
@@ -207,8 +213,10 @@ body {
 }
 .nine {
   color: white;
-  text-shadow: 2px 2px blue;
+  text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px darkblue;
 }
+
+
 
 
 
@@ -223,7 +231,8 @@ body {
   font-weight: bolder;
   font-size: 2rem;
   margin: 10px 0 0;
-  text-shadow: 2px 2px green;
+  color: MediumSeaGreen;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .nine p {
